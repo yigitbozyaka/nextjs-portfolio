@@ -53,6 +53,7 @@ export default function AboutMe() {
                                 className="w-[300px] object-cover hover:w-[450px] duration-500"
                                 width={300}
                                 height={300}
+                                priority
                                 src={project.image}
                                 alt={project.title + " showcase"}
                             />

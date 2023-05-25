@@ -23,10 +23,10 @@ function Nav() {
         <Link href="/">
           <Image
             className="text-center text-3xl font-bold tracking-widest align-middle cursor-pointer"
-            src="/a2c33bb251c2ddd4a0de50f949be5fe9-sticker.png"
+            src="/IMG_1542.png"
             width={60}
             height={60}
-            alt="Yiğit Bozyaka"
+            alt="Home"
           />
         </Link>
       </motion.div>

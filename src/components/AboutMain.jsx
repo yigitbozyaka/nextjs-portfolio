@@ -37,6 +37,7 @@ export default function AboutMe() {
           className="text-3xl font-bold text-center">
           <Image
             src="/IMG_1543.png"
+            alt="sticker"
             width={300}
             height={300}
           />
