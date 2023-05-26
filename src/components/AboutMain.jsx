@@ -19,10 +19,10 @@ export default function AboutMe() {
 
   return (
     <>
-      <div className="h-screen mx-4 md:container md:mx-auto flex flex-col md:flex-row items-center justify-evenly max-w-full text-white" id="main">
+      <div className="h-screen mx-4 md:container md:mx-auto flex flex-col md:flex-row items-center justify-evenly max-w-full text-white">
         <motion.div
           initial={{
-            x: -500,
+            y:  500,
             opacity: 0,
             scale: 0.5,
           }}
@@ -30,11 +30,11 @@ export default function AboutMe() {
             duration: .6,
           }}
           whileInView={{
-            x: 0,
+            y: 0,
             opacity: 1,
             scale: 1,
           }}
-          className="text-3xl font-bold text-center">
+          className="text-3xl font-bold text-center overflow-x-hidden">
           <Image
             src="/IMG_1543.png"
             alt="sticker"
@@ -44,7 +44,7 @@ export default function AboutMe() {
         </motion.div>
         <motion.div
           initial={{
-            x: 500,
+            y: 500,
             opacity: 0,
             scale: 0.5,
           }}
@@ -52,7 +52,7 @@ export default function AboutMe() {
             duration: .6,
           }}
           whileInView={{
-            x: 0,
+            y: 0,
             opacity: 1,
             scale: 1,
           }}
